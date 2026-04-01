@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2,
+h3,
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#div-3 {
+    background-color: skyblue;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+#div-4 {
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+#span-3 {
+    background-color: dimgray;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+#span-4 {
+    background-color: rosybrown;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+#span-5 {
+    background-color: yellow;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+#span-6 {
+    background-color: orange;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+#div-5 {
+    background-color: lightpink;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+#div-6 {
+    background-color: purple;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+
+#div-7 {
+    background-color: rebeccapurple;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+#div-8 {
+    background-color: red;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+#span-7 {
+    background-color: royalblue;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+
+.box {
+    background-color: red;
+    border: 1px solid navy;
+    margin: 5px;
+}
+
+.fifty-percent {
+    width: 50%;
+}
+
+.one-hundred-pixels {
+    width: 100px;
+}
+
+.parent {
+    width: 135px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.fifty-vw {
+    width: 50vw;
+}
+
+.twenty-five-vh {
+    height: 25vh;
+}
+
+.one-rem {
+    font-size: 1rem;
+}
+
+.one-em {
+    font-size: 1em;
+}
+
+.two-rem {
+    font-size: 2rem;
+}
+
+.two-em {
+    font-size: 2em;
+}
+
+.two-hundred-percent {
+    font-size: 200%;
+}
+
+.background {
+    min-height: 100vh;
+    background-color: gray;
+    background-image: url(https://images.alphacoders.com/617/thumb-1920-617270.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-title {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    margin: 0;
+    line-height: 35em;
+}
+
+.container-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100%;
+}
