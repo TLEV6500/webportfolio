@@ -164,6 +164,10 @@ h6,
     background-color: var(--surface-low);
     border: 1px solid var(--outline-variant);
     transition: all 0.3s ease;
+
+    & > h4 {
+        margin-block: 1rem;
+    }
 }
 
 .about-card:hover {
@@ -176,8 +180,27 @@ h6,
 
 .icon-container {
     color: var(--primary);
-    margin-bottom: 2rem;
     transition: transform 0.3s ease;
+
+    & > i {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.logo-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+
+    & img {
+        width: 24px;
+        height: 24px;
+        background-color: var(--bs-light, #f8f9fa);
+        border: 2px solid var(--bs-light, #f8f9fa);
+        border-radius: var(--bs-border-radius-sm, 0.25rem);
+    }
 }
 
 .connect-card {
@@ -303,4 +326,18 @@ h6,
     opacity: 0.03;
     pointer-events: none;
     user-select: none;
+}
+
+#landing > div:first-child {
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.text-small {
+    font-size: 0.6rem;
+}
+
+h1 {
+    font-size: 1.2rem;
 }
