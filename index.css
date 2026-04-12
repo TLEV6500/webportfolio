@@ -127,7 +127,7 @@ a.contact-link:hover {
     background-color: var(--surface-low);
     border: 1px solid var(--outline-variant);
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: help;
 }
 
 .project-card:hover {
@@ -391,4 +391,38 @@ a.contact-link:hover {
 
 h1 {
     font-size: 1.2rem;
+}
+
+.extra-tags {
+    font-size: 0.65rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+    .project-card details {
+        font-size: 16px !important;
+    }
+
+    .project-card summary {
+        display: inline-block;
+        width: 100%;
+        &::after {
+            content: "...";
+        }
+        &::marker {
+            display: none;
+        }
+    }
+
+    .project-card details[open] summary {
+        display: inline;
+        width: fit-content;
+        float: inline-start;
+        text-decoration: underline;
+        &::after {
+            content: " ";
+            white-space: pre;
+        }
+    }
 }
