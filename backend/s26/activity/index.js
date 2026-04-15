@@ -158,7 +158,8 @@ console.log(average);
 
 //Log the value of the average in the console.
 console.log("Average score of the group is greater than 75?");
-console.log(average > 75);
+const isPassing = average > 75;
+console.log(isPassing);
 
 //Do not modify
 //For exporting to test.js
