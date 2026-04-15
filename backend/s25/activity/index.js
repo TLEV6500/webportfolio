@@ -147,3 +147,39 @@ console.log("Bank code: " + bankCode);
 let bankBalance = 500;
 bankBalance = bankBalance + 100;
 console.log("Updated bank balance: " + bankBalance);
+
+//Do not modify
+//For exporting to test.js
+
+//Refer to this list for all available and accepted variable names.
+//All needed variables are listed here.
+//Error in checking may result if one of the following variables was not created or initialized.
+
+try {
+    module.exports = {
+        firstName: typeof firstName !== "undefined" ? firstName : null,
+        lastName: typeof lastName !== "undefined" ? lastName : null,
+        email: typeof email !== "undefined" ? email : null,
+        age: typeof age !== "undefined" ? age : null,
+        hobbies: typeof hobbies !== "undefined" ? hobbies : null,
+        workAddress: typeof workAddress !== "undefined" ? workAddress : null,
+        fullName: typeof fullName !== "undefined" ? fullName : null,
+        intro: typeof intro !== "undefined" ? intro : null,
+        str: typeof str !== "undefined" ? str : null,
+        num: typeof num !== "undefined" ? num : null,
+        bool: typeof bool !== "undefined" ? bool : null,
+        arr: typeof arr !== "undefined" ? arr : null,
+        obj: typeof obj !== "undefined" ? obj : null,
+        realName: typeof realName !== "undefined" ? realName : null,
+        currentAge: typeof currentAge !== "undefined" ? currentAge : null,
+        friends: typeof friends !== "undefined" ? friends : null,
+        profile: typeof profile !== "undefined" ? profile : null,
+        deposits: typeof deposits !== "undefined" ? deposits : null,
+        expenses: typeof expenses !== "undefined" ? expenses : null,
+        isAdmin: typeof isAdmin !== "undefined" ? isAdmin : null,
+        interestRate: typeof interestRate !== "undefined" ? interestRate : null,
+        loginKey: typeof loginKey !== "undefined" ? loginKey : null,
+        bankCode: typeof bankCode !== "undefined" ? bankCode : null,
+        bankBalance: typeof bankBalance !== "undefined" ? bankBalance : null,
+    };
+} catch (err) {}
